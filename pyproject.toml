@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "master-ga-docs"
+version = "0.1.0"
+description = ""
+authors = ["a"]
+readme = "README.md"
+packages = [{include = "master_ga_docs"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+sphinx = "^7.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
